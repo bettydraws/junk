@@ -1,7 +1,7 @@
 const {Canvas, ui, device} = require('tabris');
 
 // Draw shapes on a canvas using HTML5 Canvas API
-
+//use on tabris.js also try out the app on your phone
 new Canvas({
   left: 10, top: 10, right: 10, bottom: 10
 }).on('resize', ({target: canvas, width, height}) => {
